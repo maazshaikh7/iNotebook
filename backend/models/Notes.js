@@ -3,15 +3,15 @@ const { Schema } = mongoose;
 
 const notesSchema = new Schema({
  title:{
-    type: string,
+    type: String,
     required: true,
  },
  description:{
-    type: string,
+    type: String,
     required: true,
  },
  tag:{
-    type: string,
+    type: String,
     default: "General"
  },
  date:{
